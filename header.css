@@ -177,7 +177,7 @@
  background-color: lightgrey;
 }
 
-.upload-icon-container:active{
+.upload-icon-container:active {
   opacity: 0.85;
 }
 
@@ -218,4 +218,5 @@
  opacity: 1;
 
 }
+
 
