@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+  <head>
+    <title>
+      Youtube.com clone
+    </title>
+
+      <link rel = "stylesheet" href="style.css">
+      <link rel = "stylesheet" href="general.css">
+      <link rel = "stylesheet" href="header.css">
+      <link rel = "stylesheet" href="sidebar.css">
+      <link rel = "stylesheet" href="shorts.css".
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" >
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+<!--Youtube Header-->
+  <header class = "header-Top">
+
+    <div class = "logo-section">
+
+        <img class = "hamburger-menu" src = "icons/hamburger-menu.svg">
+        <img class = "yt-logo" src = "icons/youtube-logo.svg">
+
+    </div>
+
+
+          <div class = "search-section">
+
+            <input style="margin-left: -335px; width: 500px; " class= "searchBox"   type="text" placeholder="Search"> <!---This is for a text box you an also set as a type "checkbox": The place holer is text to let the user know what to input-->
+
+               <button class = "search-button"> 
+
+                 <img class = "search-icon"  src="icons/search.svg">
+
+                     <div class="tooltip"> Search </div>
+
+               </button>
+
+               <button class = "voice-search-button">
+
+                 <img class = "VoiceSearchIcon" src="icons/voice-search-icon.svg">
+
+                    <div class="tooltip"> Search with your voice </div>
+
+               </button>
+
+          </div>
+
+
+                <div class = "right-section">  
+
+                  <div class = "upload-icon-container">
+
+                    <span style="font-size: 40px; font-weight: 100; margin-right: 6px; padding-left: 5px;"> +  </span> 
+                    
+                    <span style="font-family:Roboto,Arial; font-weight: 500; padding-right: 6px;">  Create  </span>
+
+                      <div class="tooltip"> Create </div>
+                  </div>
+
+
+                    <div class ="notifications-icon-container">
+                      <img class = "notifications-button"  src = "icons/notifications.svg"> 
+
+                          <div class = "notifications-number"> 3</div>
+
+                          <div class="tooltip"> Notifications </div>
+                    </div>
+                  <img class = "account-button"  src = "channel-pics/myChannel dp.jpg">
+
+</header>
+
+    
+  </div>
+
+<!-- The sidebar -->
+  <div class="side-bar">
+
+<!--- Block 1: Home-->
+      <div class = "sidebar-block1-container">
+
+           <div class="sidebar-button">
+              <div class = "sidebar-icon">
+                   
+                <img src ="icons/home.svg" >
+
+                    <div class = "sidebar-text">
+                            Home
+                    </div>
+              </div>
+           </div>
+
+
+                  <div class="sidebar-button2">
+                      <div class = "sidebar-icon">
+                          
+                        <img src ="icons/icons8-youtube-shorts-48.png" >
+
+                            <div class = "sidebar-text">
+                                    Shorts
+                            </div>
+                      </div>
+                  </div>
+      </div>
+<!--End of block 1-->
+
+
+<!--Block 2: You -->
+      <div class = "sidebar-block2-container">
+
+           <div class="sidebar-button2">
+              <div class = "sidebar-text-block2">
+                   
+                You    
+
+                    <div class = "sidebar-icon-block2-01">
+                           > 
+                    </div>
+              </div>
+           </div>
+
+
+                   <div class="sidebar-button2">
+                      <div class = "sidebar-icon">
+                          
+                        <img src ="icons/history icon.png" >
+
+                            <div class = "sidebar-text">
+                                    History
+                            </div>
+                      </div>
+                  </div>
+
+
+                  <div class="sidebar-button2">
+                      <div class = "sidebar-icon">
+                          
+                        <img style ="height: 20px; margin-top: 4px;" src ="icons/playlist icon.png" >
+
+                            <div class = "sidebar-text">
+                                    Playlists
+                            </div>
+                      </div>
+                  </div>
+
+
+                  <div class="sidebar-button2">
+                      <div class = "sidebar-icon">
+                          
+                        <img style =" margin-top: 2px;" src ="icons/watch later icon.png" >
+
+                            <div class = "sidebar-text">
+                                    Watch Later
+                            </div>
+                      </div>
+                  </div>
+
+
+                  <div class="sidebar-button2">
+                      <div class = "sidebar-icon">
+                          
+                        <img style =" margin-top: 2px;" src ="icons/liked videos icon.png" >
+
+                            <div class = "sidebar-text">
+                                    Liked videos
+                            </div>
+                      </div>
+                  </div>
+
+
+                  <div class="sidebar-button2">
+                      <div class = "sidebar-icon">
+                          
+                        <img style =" margin-top: 2px;" src ="icons/your videos icon.png" >
+
+                            <div class = "sidebar-text">
+                                    Your videos
+                            </div>
+                      </div>
+                  </div>
+
+
+                  <div class="sidebar-button2">
+                      <div class = "sidebar-icon">
+                          
+                        <img style =" margin-top: 2px;" src ="icons/downloads icon.png" >
+
+                            <div class = "sidebar-text">
+                                    Downloads
+                            </div>
+                      </div>
+                  </div>                  
+      
+                  
+      </div>
+
+<!-- End of Block 2-->
+  </div>
+
+</div>
+    
+
+  
+    
+
+<!-- Video area -->
+<!--This is for the next video Row 1 index 1-->
+<main>
+ <section class = "video-grid">
+
+          <div class = "video-preview01"> <!--A div is just a container for other elements-->
+
+
+                <div class = "thumbnail-row">
+                  <a href="https://youtu.be/93zzKz-2PZU?si=WRwrl_WWjeKSvAdj"> <img class = "thumbnail"  src="thumbnails/hq720.avif"  > </a>
+
+                     <div class ="video-time"> 
+                      29:56 
+                    </div>
+                      
+                </div>
+
+
+                  <div class ="video-info-grid">
+                      <div class = "channel-pic">  <!--This is to make inline-block elements for vertical layout-->
+                        <img class = "profile-pic" src = "channel-pics/outdoorBoys.jpg" >
+                      </div>
+                      
+                      
+                      <div class="video-info"> <!--This is to make inline-block elements for vertical layout-->
+                           <p class = "video-title">  
+                            3 Days Camping & Fishing Alaska's Wilderness (Near Dick Proenneke's Cabin) 
+                           </p>
+
+                           <p class = "video-author">  
+                            Outdoor Boys <span class = "verified-icon"> &#10003; </span>
+                           </p>
+
+                           <p class = "video-stats">  
+                             7.9M views &#183; 2 days ago
+                           </p>
+
+                      </div> 
+
+
+                      
+
+                      
+
+                  </div>
+           
+
+          </div>
+
+
+
+
+<!--This is for the next video Row 1 index 2-->
+          <div class = "video-preview02"> 
+             
+               <div  class = "thumbnail-row"> 
+                 <a href = "https://youtu.be/L24LV0WxRAc?si=n0bJ3UwTBPy84_J4" > <img class = "thumbnail"  src="thumbnails/hq721.avif"> </a>
+
+                  <div class ="video-time"> 
+                      32:14 
+                    </div>
+               </div>
+             
+             
+             
+             
+             
+                 <div class ="video-info-grid">
+
+                  <div class = "channel-pic">
+                    
+                    <img class = "profile-pic" src = "channel-pics/scruFace.jpg">
+                    
+                  </div>
+
+
+
+
+                  <div class = "video-info">
+
+                    <p class = "video-title">  
+                      WE GOT A BATTLE! UK VS USA RAP BATTLE - FT.SUPAHOTFIRE & MONKWEH 
+                    </p>
+
+                    <p class = "video-author">  
+                     Scru Face Jean <span class = "verified-icon"> &#10003; </span>
+                    </p>
+
+                    <p class = "video-stats">  
+                      174k views &#183; 4 days ago
+                    </p>
+
+                  </div>
+
+
+                   
+              
+                 </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+<!--This is for the next video Row 1 index 3-->
+          <div class = "video-preview03"> 
+             
+               <div  class = "thumbnail-row"> 
+                 <a href = "https://youtu.be/sjyJyMj7MLM?si=HJ6dc9aiMDva2IsI"> <img class = "thumbnail"  src="thumbnails/hq722.avif"> </a>
+                 
+                    <div class ="video-time"> 
+                      23:32 
+                    </div>
+               </div>
+             
+             
+             
+             
+             
+                 <div class ="video-info-grid">
+
+                  <div class = "channel-pic">
+                    
+                    <img class = "profile-pic" src = "channel-pics/SNG reacts.jpg">
+                    
+                  </div>
+
+
+
+
+                  <div class = "video-info">
+
+                    <p class = "video-title">  
+                      PEOPLE HAVING A BAD DAY! | ShxtsnGigs Reacts 
+                    </p>
+
+                    <p class = "video-author">  
+                     ShxrnGigs Reacts
+                    </p>
+
+                    <p class = "video-stats">  
+                      420k views &#183; 5 days ago
+                    </p>
+
+                  </div>
+
+
+                   
+              
+                 </div>
+          </div>
+
+</section>
+
+
+<!--This is for the shorts youll add later-->
+<div class = "shorts-container">
+
+   <div>
+      <img class="shorts-icon" src = "icons/icons8-youtube-shorts-48.png">
+
+      <div class = "word-next-to-shorts"> Shorts </div>
+  </div>
+
+   <div>
+    <img class="dots-vertical" src = "icons/three-dots-vertical.svg">
+  </div>
+
+
+</div>
+
+
+
+
+
+<!--This is for ROW 2 index 1-->
+<section class = "video-grid">
+          <div class = "video-preview04"> 
+
+
+                <div class = "thumbnail-row">
+                  <a href="https://youtu.be/fgCHZCkhokY?si=kk8tc7byY60nqKd7"> <img class = "thumbnail"  src="thumbnails/tm3.avif"> </a>
+
+                    <div class ="video-time"> 
+                      07:08 
+                    </div>
+                </div>
+
+
+                  <div class ="video-info-grid">
+                      <div class = "channel-pic">  
+                        <img class = "profile-pic" src = "channel-pics/DavidDobrik.jpg" >
+                      </div>
+                      
+                      
+                      <div class="video-info"> 
+                           <p class = "video-title">  
+                            CONFRONTING HER ABOUT OUR SECRET!! 
+                           </p>
+
+                           <p class = "video-author">  
+                            David Dobrik <span class = "verified-icon"> &#10003; </span>
+                           </p>
+
+                           <p class = "video-stats">  
+                             2.9M views &#183; 4 weeks ago
+                           </p>
+
+                      </div> 
+
+
+                      
+                   
+                  </div>
+           
+
+          </div>
+          
+
+
+
+
+<!--This is for ROW 2 index 2-->
+          <div class = "video-preview05"> 
+             
+               <div  class = "thumbnail-row"> 
+                 <a href = "https://youtu.be/qjsHaTrXrJQ?si=dXWb534tRXtc86tk" > <img class = "thumbnail"  src="thumbnails/tm4.avif"> </a>
+
+                   <div class ="video-time"> 
+                      53:50 
+                    </div>
+               </div>
+             
+             
+             
+             
+             
+                 <div class ="video-info-grid">
+
+                  <div class = "channel-pic">
+                    
+                    <img class = "profile-pic" src = "channel-pics/MattArmstrong.jpg">
+                    
+                  </div>
+
+
+
+
+                  <div class = "video-info">
+
+                    <p class = "video-title">  
+                       I REBUILT MY WRECKED MERCEDES AMG GT63E 
+                    </p>
+
+                    <p class = "video-author">  
+                     Matt Armstrong MK2 <span class = "verified-icon"> &#10003; </span>
+                    </p>
+
+                    <p class = "video-stats">  
+                      2.9M views &#183; 12 days ago
+                    </p>
+
+                  </div>
+
+
+                   
+              
+                 </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+<!--This is for ROW 2 index 3-->
+          <div class = "video-preview06"> 
+             
+               <div  class = "thumbnail-row"> 
+                 <a href = "https://youtu.be/HfTF3UR6l5w?si=yt1QxBsbgMpCmfrv"> <img class = "thumbnail"  src="thumbnails/tm5.avif"> </a> 
+
+                   <div class ="video-time"> 
+                      1:08:12 
+                   </div>
+               </div>
+             
+             
+             
+             
+             
+                 <div class ="video-info-grid">
+
+                  <div class = "channel-pic">
+                    
+                    <img class = "profile-pic" src = "channel-pics/KaiCenat.jpg">
+                    
+                  </div>
+
+
+
+
+                  <div class = "video-info">
+
+                    <p class = "video-title">  
+                      Kai Cenat Reacts to Future & Metro Boomin - We Don't Trust You 
+                    </p>
+
+                    <p class = "video-author">  
+                     Kai Cenat Live <span class = "verified-icon"> &#10003; </span>
+                    </p>
+
+                    <p class = "video-stats">  
+                      3.6M views &#183; 1 year ago
+                    </p>
+
+                  </div>
+
+
+                   
+              
+                 </div>
+          </div>
+
+ 
+</section>
+</main>
+          
+       
+</body>
+</html>

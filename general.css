@@ -1,0 +1,15 @@
+p {
+  /*font-family: Roboto, Arial; /The ', Arial' is the backup stack just incase that roboro or anything does not work*/
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0; /*The margin element is directed to all margins around. Top, Bottom, Left and Right*/
+  padding-top: 80px; /*This is for the header*/
+  padding-left: 255px; /* This is for the sidebar*/
+  padding-right: 24px ;
+  height: 3000px;
+  background-color: rgb(248,248,248);
+  font-family: Roboto, Arial;
+}
