@@ -26,3 +26,93 @@
   width: 24px;
   margin-right: 7px;
 }
+
+
+/** Main shorts ***/
+.shorts-container-main {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ column-gap: 12px;
+ margin: -15px 0 45px 0;
+}
+
+
+
+.shorts-preview {
+ padding: 10px 8px 10px 8px;
+ transition: background-color 0.15s;
+ display: inline-block;
+ border-radius: 25px;
+}
+
+.shorts-preview:hover {
+  background-color: lightgray;
+}
+
+
+.shorts-thumnail-row {
+ margin-bottom: 8px;
+ display: inline-block; 
+}
+
+
+
+
+
+.shorts-thumbnail {
+ height: 351px;
+ width: 251px;
+ border-radius: 10px;
+
+}
+
+
+/* shorts info*/
+
+.shorts-info-grid{
+
+ display: inline-block;
+}
+
+
+.short-title-container {
+ display: flex;
+
+}
+
+
+.short-title {
+ font-weight: 700;
+ display: inline-flex;
+ width: 200px;
+ cursor: pointer;
+ line-height: 20px;
+ margin-bottom: 0;
+}
+
+.dots-vertical {
+  height: 24px;
+  width: 24px;
+  display: inline-flex;
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 10px ;
+  border-radius: 25px;
+  transition: background-color 0.15s;
+}
+
+.dots-vertical:hover {
+  background-color: lightgray;
+}
+
+
+
+.short-stats {
+ margin-top: 2px;
+ font-weight: 500;
+ cursor: pointer;
+ color: grey;
+ display: inline-block;
+}
