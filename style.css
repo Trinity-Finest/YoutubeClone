@@ -23,6 +23,7 @@
   border-radius: 25px;
   padding: 10px 8px 12px 8px;
   transition: 0.45s;
+   cursor: pointer;
 }
 
 .video-preview01:hover,
@@ -52,13 +53,13 @@ background-color: rgb(186, 246, 186);
 
 
 /* Media Query*/
-@media (max-width:750px) { /* This will only activate when the browser window is less then 750px  */
+@media (max-width:750px) { 
  .video-grid {
-   grid-template-columns: 1fr 1fr; /* When the screen is smaller than 750px then on 2 videos will display in a row*/
+   grid-template-columns: 1fr 1fr; 
  }
 }
 
-@media (min-width: 751px) and (max-width: 999px){ /* This is to cover the space in between min and max, so in other words normal screen*/
+@media (min-width: 751px) and (max-width: 999px){ 
   .video-grid {
    grid-template-columns: 1fr 1fr 1fr; 
  }
@@ -71,13 +72,12 @@ background-color: rgb(186, 246, 186);
  }
 }
 
+
+
 /*------ This is for the video info e.g the video title, author, stats------*/
-
-
-
 .video-info-grid {
   display: grid;
-  grid-template-columns: 50px 1fr; /*This is to remove the space between the cahnnel pic and the video title,author and stats*/
+  grid-template-columns: 50px 1fr; 
   
 }
 
@@ -86,18 +86,6 @@ background-color: rgb(186, 246, 186);
 
 .thumbnail {
   width: 100%;
-
-  /*object-fit: contain;    /*This determines what happens if the values you set for the width and height 
-                         does not meet the dimensions of the image like it makes it look stretched or ugly
-                         The 'cover' will essentially keep the dimensions(make it clear)
-                        - You can also use "contain" instead of 'cover' and it will shrink the image till it fits.*/
-  
-  
-  /*object-position: right; /*This is to adjust which part of the image we see when we use the object fit
-                           you Can use left or right*/
-
- 
-
  border-radius: 13px;
  cursor: pointer;
 }
@@ -120,9 +108,6 @@ background-color: rgb(186, 246, 186);
   font-weight: 500;
   font-size: 12px;
   border-radius: 2px;
-  /*padding: 4px 10px 20px 30px;  The first value is for vertical values(top,bottom), second value is for horizontal values(left,right)
-                                  Now the 4 values; All directions, 1st value (top), 2nd Value (right), 3rd value(bottom), 4th value(left)
-                                  Think of it as you start at the top then go clockwise.*/
 }
 
 
@@ -137,7 +122,7 @@ background-color: rgb(186, 246, 186);
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 500;
-  line-height: 20px; /*to change the space in between the lines*/
+  line-height: 20px; 
   cursor: pointer;
 }
 
@@ -155,12 +140,8 @@ background-color: rgb(186, 246, 186);
 }
 
 
-.video-author,       /*The comma[video-author,] can be used to target multiple classes at once*/
+.video-author,     
 .video-stats{
- /*display: inline-block;  /*There are 3 types of elements: We use the display to change the elements
-                          1) Block elements (like the <p> paragraphs)
-                          2) inline-block element (when images or textboxes use just the space the need
-                          3) inline element these are thing like to make your text bold withing you paragraph.*/
  color: grey;
  margin-top: 2px;
  font-size: 13px; 
@@ -186,4 +167,6 @@ background-color: rgb(186, 246, 186);
   padding: 1px 5px 1px 5px;
   border-radius: 25px;
 }
+
+
 
