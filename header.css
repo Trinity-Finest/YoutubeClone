@@ -119,7 +119,7 @@
 /* Right section*/
 .right-section {
  width: 180px;
- margin-right: 20px;
+ margin-right: 35px;
  display: flex;
  flex-direction: row;
  align-items: center;
@@ -218,5 +218,6 @@
  opacity: 1;
 
 }
+
 
 
