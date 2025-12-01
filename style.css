@@ -23,6 +23,7 @@
   border-radius: 25px;
   padding: 10px 8px 12px 8px;
   transition: 0.45s;
+   cursor: pointer;
 }
 
 .video-preview01:hover,
@@ -166,5 +167,6 @@ background-color: rgb(186, 246, 186);
   padding: 1px 5px 1px 5px;
   border-radius: 25px;
 }
+
 
 
