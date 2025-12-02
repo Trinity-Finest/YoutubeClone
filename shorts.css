@@ -31,8 +31,8 @@
 /** Main shorts ***/
 .shorts-container-main {
  display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- column-gap: 12px;
+ grid-template-columns: 199px 199px 199px 199px 199px;
+ column-gap: 45px;
  margin: -15px 0 45px 0;
 }
 
@@ -41,8 +41,8 @@
 .shorts-preview {
  padding: 10px 8px 10px 8px;
  transition: background-color 0.15s;
- display: inline-block;
  border-radius: 25px;
+ width: 235px;
 }
 
 .shorts-preview:hover {
@@ -61,23 +61,20 @@
 
 .shorts-thumbnail {
  height: 351px;
- width: 251px;
+ width: 234px;
  border-radius: 10px;
 
 }
 
 
 /* shorts info*/
-
 .shorts-info-grid{
-
  display: inline-block;
 }
 
 
 .short-title-container {
  display: flex;
-
 }
 
 
@@ -88,6 +85,7 @@
  cursor: pointer;
  line-height: 20px;
  margin-bottom: 0;
+ padding-right: -3px;
 }
 
 .dots-vertical {
@@ -96,7 +94,7 @@
   display: inline-flex;
   margin-top: 0;
   margin-bottom: 8px;
-  margin-left: 20px;
+  margin-left: -5px;
   cursor: pointer;
   padding: 10px ;
   border-radius: 25px;
@@ -116,3 +114,4 @@
  color: grey;
  display: inline-block;
 }
+
