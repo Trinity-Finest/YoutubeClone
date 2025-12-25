@@ -120,5 +120,25 @@
 }
 
 
+/* Block 3 */
+.sidebar-block3-container{
+  padding-bottom: 20px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+.block3-heading{
+  color:black;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 17px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: -2px;
+}
+
+
 
 
