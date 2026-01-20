@@ -121,8 +121,10 @@
 
 
 /* Block 3 */
-.sidebar-block3-container{
-  padding-bottom: 20px;
+.sidebar-block3-container,
+.sidebar-block4-container,
+.sidebar-block5-container{
+  padding-bottom: 12px;
   border-bottom: solid;
   border-bottom-width: 1px;
   border-bottom-color: black;
@@ -138,6 +140,28 @@
   margin-left: 20px;
   margin-bottom: -2px;
 }
+
+
+/* Block 4 */
+.block4-heading{
+  color:black;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 17px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
+
+
+
+/* Block 5 */
+.sidebar-block5-container{
+  padding-top: 15px;
+}
+
+
 
 
 
